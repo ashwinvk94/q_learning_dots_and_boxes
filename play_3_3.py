@@ -330,7 +330,7 @@ def play_game():
 	# Initializes the q table contains all possible states and all possible moves at each state
 	# print 'sdfvsd'
 	# Or you could load the q table and all states
-	q_learning_2_2_data = open("final_3_3.pkl","rb")
+	q_learning_2_2_data = open("q_learning_2_2_data.pkl","rb")
 	q_learning_2_2_data = pickle.load(q_learning_2_2_data)
 	q_table = q_learning_2_2_data[0]
 	epsilon = 0
